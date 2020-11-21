@@ -17,7 +17,7 @@ for j in range(n):
 	curr_count[strr[j]] += 1 
 	if curr_count[strr[j]] == 1: 
 		count += 1 
-  if count == dist_count: 
+        if count == dist_count: 
 		while curr_count[strr[start]] > 1: 
 			if curr_count[strr[start]] > 1: 		
 				curr_count[strr[start]] -= 1 
